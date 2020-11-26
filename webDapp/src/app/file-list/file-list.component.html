@@ -1,0 +1,23 @@
+<h2>Files</h2>
+
+<div *ngFor="let file of files">
+  <h3>
+    <a [title]="file.name + ' details'">
+      {{ file.name }}
+    </a>
+  </h3>
+
+  <p *ngIf="file.ipfs">
+    Link: {{ file.ipfs }}
+  </p>
+
+  <button (click)="share()">
+    Share
+  </button>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

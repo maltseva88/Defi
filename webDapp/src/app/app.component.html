@@ -1,0 +1,21 @@
+<app-top-bar></app-top-bar>
+
+<img [src]="url" *ngIf="format==='image' && url" height="640" /> <br />
+<video
+  [src]="url"
+  *ngIf="format==='video' && url"
+  height="640"
+  controls
+></video>
+<br />
+<input type="file" (change)="onSelectFile($event)" />
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
