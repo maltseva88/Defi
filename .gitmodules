@@ -1,0 +1,3 @@
+[submodule "webDapp_react"]
+	path = webDapp_react
+	url = https://github.com/klleung72781/webdapp_react.git
