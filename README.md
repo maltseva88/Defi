@@ -1,3 +1,5 @@
+![markdown-image](screenshots/coindrive.png)
+
 # CoinDrive, A DAPP built for file storage and streaming.... 
 
 
@@ -326,6 +328,3 @@ https://unstoppabledomains.com/
 https://youtu.be/T9p3ZVUw3X8 
 https://www.google.com/amp/s/www.geeksforgeeks.org/how-to-use-sys-argv-in-python/amp/
 https://daotalk.org/t/proposals-building-a-dwebsite-for-dxdao-s-alchemy/1342
-
-
-###### Nota Bene: much of this material comes from class GitLab, Instructors GS, AN, and KS, and Tutor, Ms. LT
